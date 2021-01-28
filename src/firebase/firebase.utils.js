@@ -33,7 +33,7 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
                 ...additionalData
             })
         } catch(error) {
-            console.log('Document not created due to error ', error)
+            console.log('Document not created due to error: ', error)
         }
     }
 

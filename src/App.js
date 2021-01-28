@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { createStructuredSelector } from 'reselect';
+import { createStructuredSelector } from 'reselect'; //Create structured selector automatically passes the state argument to each of any number of selectors we have in the mapStateToProps function. (So, it technically doesn't save us any work here, but allows us to add other selectors to the mapStateToProps funciton without refactoring it.)
 
 import './App.css';
 
