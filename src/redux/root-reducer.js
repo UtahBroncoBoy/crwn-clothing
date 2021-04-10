@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 import { persistReducer } from 'redux-persist';
-import storage from 'redux-persist/lib/storage'; //This is telling redux persist we want to use local storage as our default storage
+import storage from 'redux-persist/lib/storage'; //This is telling redux persist we want to use local storage as our default storage (not session storage)
 
 import cartReducer from './cart/cart.reducer';
 import directoryReducer from './directory/directory.reducer';
